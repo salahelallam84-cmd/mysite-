@@ -2,33 +2,80 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>موقعي</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل</title>
+
 <style>
-body{
-    background:#5b0f1f;
-    color:white;
-    font-family:Arial;
-    text-align:center;
-    padding-top:100px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
-button{
-    background:#b11d3b;
-    color:white;
-    border:2px solid gold;
-    border-radius:40px;
-    padding:15px 40px;
-    font-size:22px;
-    cursor:pointer;
+
+body{
+background:#5a0f1f;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.box{
+width:100%;
+max-width:420px;
+text-align:center;
+}
+
+h1{
+color:#ffd700;
+margin-bottom:30px;
+font-size:32px;
+}
+
+.btn{
+display:block;
+width:100%;
+padding:18px;
+margin:15px 0;
+background:#8b1c2f;
+border:3px solid #d4af37;
+border-radius:50px;
+color:#fff;
+font-size:22px;
+font-weight:bold;
+text-decoration:none;
+transition:.2s;
+}
+
+.btn:hover{
+transform:scale(1.03);
+}
+
+img{
+width:100%;
+margin-top:25px;
+border-radius:15px;
 }
 </style>
 </head>
+
 <body>
 
-<h1>مرحبًا بك في موقعي</h1>
+<div class="box">
 
-<p>هذا أول موقع قمت بإنشائه 🎉</p>
+<h1>👇 اختر أحد الخيارات 👇</h1>
 
-<button>اضغط هنا</button>
+<a class="btn" href="https://wa.me/212600000000">📱 واتساب</a>
+
+<a class="btn" href="#">📞 اتصل الآن</a>
+
+<a class="btn" href="#">⭐ المزيد</a>
+
+<img src="https://picsum.photos/400/300" alt="">
+
+</div>
 
 </body>
 </html>
